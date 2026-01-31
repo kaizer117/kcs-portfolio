@@ -304,6 +304,17 @@ header {
     border-color: var(--color-accent);
     transform: translateX(4px);
 }
+/* added here*/
+.detail-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.detail-link:hover .detail-item {
+    border-color: var(--color-accent);
+    transform: translateX(4px);
+}
 
 .detail-item i {
     color: var(--color-accent);
